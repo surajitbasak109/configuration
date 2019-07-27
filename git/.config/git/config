@@ -1,0 +1,56 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Surajit
+	email = surajitbasak109@gmail.com
+	username = surajitbasak109
+[push]
+  default = current
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = true
+[protocol "keybase"]
+	allow = always
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[color]
+	ui = always
+[diff]
+	colorMoved = dimmed_zebra
+    tool = vimdiff
+	submodule = log
+[difftool]
+    prompt = false
+[gpg]
+	program = gpg
+[core]
+	autocrlf = false
+	safecrlf = true
+	editor = vim
+    #pager = vimpager
+	symlinks = true
+	excludesfile = ~/.config/git/ignore
+[alias]
+	last = log -1 HEAD
+	co = checkout
+    cob = checkout -b
+    cp = cherry-pick
+	cm = checkout master
+	b = branch
+	lg = log --pretty=oneline --abbrev-commit
+[credential]
+	helper = cache
+[help]
+	autocorrect = 1
+[sendemail]
+  smtpEncryption = tls
+  smtpServer = mail.gmail.com
+  smtpUser = surajitbasak109
+ 
+[github]
+	user = surajitbasak109
+[notabug]
+    user = surajitbasak109
