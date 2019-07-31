@@ -52,39 +52,39 @@ Plugin 'mileszs/ack.vim'
 Plugin 'rking/ag.vim'
 Plugin 'w0rp/ale'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'captbaritone/better-indent-support-for-php-with-html'
 Plugin 'bonsaiben/bootstrap-snippets.git'
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'airblade/vim-gitgutter'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'scrooloose/nerdtree'
+Plugin 'junegunn/goyo.vim'
+Plugin 'Yggdroot/indentLine'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'joshdick/onedark.vim'
+Plugin 'tobyS/pdv'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'godlygeek/tabular'
+Plugin 'tomtom/tlib_vim'
+"Plugin 'SirVer/ultisnips'
+Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'godlygeek/tabular'
-Plugin 'gabrielelana/vim-markdown'
-Plugin 'Yggdroot/indentLine'
-Plugin 'joshdick/onedark.vim'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'captbaritone/better-indent-support-for-php-with-html'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'SirVer/ultisnips'
-Plugin 'garbas/vim-snipmate'
-"Plugin 'honza/vim-snippets'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'jlanzarotta/bufexplorer'
-"Plugin 'ervandew/supertab'
 Plugin 'ap/vim-css-color'
-Plugin 'tobyS/pdv'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'gabrielelana/vim-markdown'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-surround'
 Plugin 'maxbrunsfeld/vim-yankstack'
-Plugin 'junegunn/goyo.vim'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ervandew/supertab'
 
 " Vundle Ends
 call vundle#end()          
@@ -767,8 +767,8 @@ endif
 
 " Uppercase and Lowercase like sublime text key mapping
 " On Insert mode
-inoremap <c-k><c-u> <Esc>bgUwe 
-inoremap <c-k><c-l> <Esc>bguwe 
+inoremap <c-k><c-u> <Esc>bgUwei
+inoremap <c-k><c-l> <Esc>bguwei 
 " On Normal mode
 noremap <c-k><c-u> bgUwe 
 noremap <c-k><c-l> bguwe 
